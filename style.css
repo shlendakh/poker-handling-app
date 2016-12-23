@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue';
+	background-color: #fdfdfd;
+}
+
+table#bazadanych {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+tr {
+	margin: 0;
+	padding: 0;
+}
+
+td {
+	margin: 0;
+	padding: 7px;
+}
+
+.wygrana {
+	background-color: #e0FFe0;
+	border-left: 1px solid #222;
+}
+
+.pula {
+	background-color: #d2ccff;
+}
+
+.nd {
+	background-color: #ffa6a6;
+	border-right: 1px solid #222;
+}
+
+.imie-gracza {
+	background-color: #66FF66;
+}
+
+.gorna-belka-daty {
+	background-color: #ffffe6;
+	border-bottom: 1px solid #FFF;
+	border-right: 1px solid #222;
+	border-left: 1px solid #222;
+}
+
+.header-wygrana { 
+	background-color: #ffff9a;
+	border-left: 1px solid #222;
+}
+
+.header-pula { 
+	background-color: #8181ff;
+}
+
+.header-nd { 
+	background-color: #ff4c4c;
+	border-right: 1px solid #222;
+}
+
+.linia-gracza {
+	border-top: 1px solid #FFF;
+}
+
+div#container {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#div-table {
+	margin: 0;
+	padding: 0;
+	height: 120%;
+	width: 900px; 
+	overflow: auto;
+	border-radius: 5px;
+}
+
+
+div#title {
+	font-size: 29px;
+	text-align: left;
+	width: auto;
+	height: 50px;
+	background-color: #4852E0;
+	color: #fff;
+	padding: 20px 0 0px 30px;
+	margin-bottom: 20px;
+}
+
+#gorny-lewy-rog {
+	background-color: #44e544;
+}
+
+div#stats {
+	margin: 20px 0 0 0;
+	padding: 0;
+	width: auto;
+	height: 400px;
+	background-color:;
+}
+
+.ranking {
+	margin: 0 4% 0 4%;;
+	background-color: #CCC;
+	width: 25%;
+	height: 400px;
+	position: relative;
+	float: left;
+	font-size: 11px;
+}
+
+table#personal-ranking-table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: center;
+	border: 1px solid #666;
+}
+
+table#global-ranking-table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: center;
+	border: 1px solid #666;
+}
+
+#global-ranking-table td {
+	border: 1px solid #666;
+}
+
+#personal-ranking-table td {
+	border: 1px solid #666;
+}
+
+.pr-td-name {
+	text-align: left;
+}
+
+.gl-td-name {
+	text-align: left;
+}
+
+.ratio {
+	text-align: center;
+}
+
+#global-ranking-header-name {
+	text-align: left;
+}
+
+#personal-ranking-header-name {
+	text-align: left;
+}
