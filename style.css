@@ -12,6 +12,14 @@ table#bazadanych {
 	text-align: center;
 }
 
+table#nametable {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: center;
+	width: 150px;
+}
+
 tr {
 	margin: 0;
 	padding: 0;
@@ -69,17 +77,34 @@ div#container {
 	width: 900px;
 	margin: 0 auto;
 	padding: 0;
+	border-radius: 5px;
 }
 
 #div-table {
 	margin: 0;
 	padding: 0;
 	height: 120%;
-	width: 900px; 
+	width: 750px; 
 	overflow: auto;
-	border-radius: 5px;
+	border-radius: 0px 5px 5px 0px;
+	float: right;
+	margin-bottom: 50px;
 }
 
+#div-names {
+	margin: 0;
+	padding: 0;
+	height: 120%;
+	width: 60px;
+	border-radius: 5px;
+	float: left;
+	position: relative;
+}
+
+div#contanair{
+	width: 80%;
+	margin: 0 auto;
+}
 
 div#title {
 	font-size: 29px;
@@ -92,8 +117,45 @@ div#title {
 	margin-bottom: 20px;
 }
 
+div#menu {
+	height: 70px;
+	width: 40%;
+	float: right;
+	font-size: 21px;
+	margin-right: 10px;
+	position: relative;
+	top: 15px;
+}
+
+ul#ulmenu {
+	display: inline;
+}
+
+li#limenu {
+	display: inline;
+	margin-right: 10px;
+}
+
 #gorny-lewy-rog {
 	background-color: #44e544;
+	width: 60px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	text-decoration: none;
+	color: #CCC;
+}
+
+#gorny-lewy-rog-vol {
+	background-color: #44e544;
+	color: #44e544;
+	width: 60px;
+	border-top: 1px solid white;
 }
 
 div#stats {
@@ -156,4 +218,9 @@ table#global-ranking-table {
 
 #personal-ranking-header-name {
 	text-align: left;
+}
+
+#header-vol {
+	border-top: 1px solid white;
+	width: 60px;
 }
